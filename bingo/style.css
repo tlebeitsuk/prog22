@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    padding: 4px;
+    background: #000;
+    width: 336px;
+}
+
+header {
+    font-size: 4rem;
+    -webkit-text-stroke: 2px #fff;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+button {
+    font-size: 2rem;
+    font-weight: bold;
+    height: 64px;
+    width: 64px;
+    background: #fff;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+
+.hit {
+    background: #ff9898;
+    border-radius: 50%;
+}

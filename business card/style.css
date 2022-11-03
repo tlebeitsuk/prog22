@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+body {
+    background: #343a40;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+#card {
+    background: url(card.png);
+    background-size: cover;
+    color: white;
+    width: 520px;
+    height: 280px;
+    padding: 24px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 400px rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.2s ease-out;
+}
+
+#card:hover {
+    transform: scale(1.2);
+}
+
+img {
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #feeafa; 
+    margin-bottom: 22px;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 32px;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+i {
+    font-size: 42px;
+    color: #feeafa;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25%;
+    padding: 12px;
+    transition: all 0.25s ease-in;
+}
+
+i:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #343434;
+}

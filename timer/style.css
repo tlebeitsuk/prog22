@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#time {
+    display: flex;
+    text-align: center;
+    color: gray;
+    font-size: 6rem;
+}
+
+#minutes,
+#seconds,
+#milliseconds {
+    color: black;
+    min-width: 120px;
+}
+
+button {
+    background: none;
+    border: 2px dotted orange;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+

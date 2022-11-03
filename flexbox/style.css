@@ -1,0 +1,44 @@
+body {
+    background-image: linear-gradient(120deg, #631d3e 0%, #9d58f9 74%);
+    overflow: hidden;
+    height: 100vh;
+    font-family: Arial;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+#parent-box {
+    width: 340px;
+    height: 340px;
+    background: #dee2ff;
+    border-width: 16px;
+    border-image: linear-gradient(to right, #9d58f9, #631d3e) 1;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+#parent-box div {
+    padding: 10px;
+    text-align: center;
+    font-size: 62px;
+    color: #fff;   
+    width: 80px;
+    height: 80px;
+}
+
+#child-box1 {
+    background: #e63946;
+}
+
+#child-box2 {
+    background: #1d3557;
+}
+
+#child-box3 {
+    background: #588157;
+}
