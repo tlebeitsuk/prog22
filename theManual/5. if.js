@@ -2,7 +2,7 @@
 // ============================================
 // Executes a block of code if result is true
 
-let old = prompt("How old are you?");
+// let old = prompt("How old are you?");
 
 // if (old > 18) alert("You are of legal age!")
 
@@ -53,4 +53,4 @@ let old = prompt("How old are you?");
 //   result = 'Over';
 // }
 
-// let result = (a + b < 3) ? "Below" : "Over";
+// let result = (a + b < 4) ? "Below" : "Over";
