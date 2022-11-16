@@ -9,17 +9,29 @@
 //   });
 
 async function getRain(position) {
-  console.log(position);
+  console.log("position :", position);
 
   const response = await fetch(
     `https://api.open-meteo.com/v1/forecast?latitude=${position.coords.latitude}&longitude=${position.coords.longitude}&daily=precipitation_sum&timezone=auto`
   );
   const data = await response.json();
 
-  console.log(data);
+  console.log("data : ", data);
 
-  if (data.daily.precipitation_sum[1] > 0) {
-    alert("Kurakläderna på! ☔️");
+  const image = document.querySelector("img");
+  const text = document.querySelector("#text");
+  const precipitation = data.daily.precipitation_sum[1];
+
+  if (precipitation > 0) {
+    // rain, do stuff
+    image.src = "rain.png";
+    text.innerHTML = `
+    <h1>Kom ihåg <br>kurakläder!</h1>
+    <p>${precipitation} mm</p>`;
+  } else {
+    // no rain, do stuff
+    image.src = "sun.png";
+    text.innerHTML = "<h1>Inga kurakläder<br> behövs idag!</h1>";
   }
 }
 
