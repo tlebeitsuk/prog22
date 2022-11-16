@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background: #393434;
+    justify-content: center;
+}
+
+main {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 12px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    color: #fff;
+    overflow: auto;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: #c7c0c0;
+}
+
+input {
+    color: white;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: #3C4730;
+    border: none;
+}
