@@ -73,3 +73,28 @@
 // }
 
 // checkAge(ab);
+
+
+// Arrow functions
+
+function hello(name) {
+  return "Hello " + name
+}
+
+hello("world"); // Hello world
+
+
+const hello = (name) => {
+  return "Hello " + name
+}
+
+// Task: Rewrite with arrow functions
+function ask(question, yes, no) {
+  if (confirm(question)) yes();
+  else no();
+}
+
+const ask = (question, yes, no) => {
+  if (confirm(question)) yes();
+  else no();
+}
