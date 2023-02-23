@@ -1,0 +1,21 @@
+{
+  "name": "lunchmenu",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@iconify-json/ph": "^1.1.4",
+    "@unocss/preset-icons": "^0.50.0",
+    "unocss": "^0.50.0",
+    "vite": "^4.1.0"
+  },
+  "dependencies": {
+    "@unocss/reset": "^0.50.0",
+    "firebase": "^9.17.1"
+  }
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="h-screen flex justify-center align-center bg-yellow-50">
+      <main class="max-h-8 w-64">
+        <h1 class="text-yellow-500 text-4xl">Lunch meny</h1>
+        <ul class="space-y-10 mt-6">
+          <li>
+            <div class="flex justify-between items-center">
+              <h2 class="text-yellow-500 text-2xl">Måndag</h2>
+              <div class="relative">
+                <div class="i-ph-thumbs-up-fill text-4xl text-green-700"></div>
+                <span
+                  id="monday-count"
+                  class="absolute top-3 right-1.5 text-xs text-light font-bold"
+                ></span>
+              </div>
+            </div>
+            <p id="monday"></p>
+          </li>
+          <li>
+            <div class="flex justify-between items-center">
+              <h2 class="text-yellow-500 text-2xl">Tisdag</h2>
+              <div class="relative">
+                <div class="i-ph-thumbs-up-fill text-4xl text-green-700"></div>
+                <span
+                  id="tuesday-count"
+                  class="absolute top-3 right-1.5 text-xs text-light font-bold"
+                ></span>
+              </div>
+            </div>
+            <p id="tuesday"></p>
+          </li>
+          <li>
+            <div class="flex justify-between items-center">
+              <h2 class="text-yellow-500 text-2xl">Onsdag</h2>
+              <div class="relative">
+                <div class="i-ph-thumbs-up-fill text-4xl text-green-700"></div>
+                <span
+                  id="wednesday-count"
+                  class="absolute top-3 right-1.5 text-xs text-light font-bold"
+                ></span>
+              </div>
+            </div>
+            <p id="wednesday"></p>
+          </li>
+          <li>
+            <div class="flex justify-between items-center">
+              <h2 class="text-yellow-500 text-2xl">Torsdag</h2>
+              <div class="relative">
+                <div class="i-ph-thumbs-up-fill text-4xl text-green-700"></div>
+                <span
+                  id="thursday-count"
+                  class="absolute top-3 right-1.5 text-xs text-light font-bold"
+                  >3</span
+                >
+              </div>
+            </div>
+            <p id="thursday"></p>
+          </li>
+          <li>
+            <div class="flex justify-between items-center">
+              <h2 class="text-yellow-500 text-2xl">Fredag</h2>
+              <div class="relative">
+                <div class="i-ph-thumbs-up-fill text-4xl text-green-700"></div>
+                <span
+                  id="friday-count"
+                  class="absolute top-3 right-1.5 text-xs text-light font-bold"
+                ></span>
+              </div>
+            </div>
+            <p id="friday"></p>
+          </li>
+        </ul>
+      </main>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
